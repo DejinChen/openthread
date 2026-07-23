@@ -1023,7 +1023,7 @@ public:
      * @returns OT_ERROR_NOT_FOUND if it does not support the given property key, otherwise the error in either parsing
      *          of the input or the "set" operation.
      */
-    otError VendorHandleValueIs(spinel_prop_key_t aPropKey);
+    otError VendorHandleValueIs(spinel_prop_key_t aPropKey, const uint8_t *aBuffer, uint16_t aLength);
 
     /**
      *  A callback type for restoring vendor properties.
@@ -1160,6 +1160,7 @@ private:
      */
     bool IsSafeToHandleNow(spinel_prop_key_t aKey) const
     {
+        // return !(aKey == SPINEL_PROP_STREAM_RAW || aKey == SPINEL_PROP_MAC_ENERGY_SCAN_RESULT || aKey == 15366);
         return !(aKey == SPINEL_PROP_STREAM_RAW || aKey == SPINEL_PROP_MAC_ENERGY_SCAN_RESULT);
     }
 

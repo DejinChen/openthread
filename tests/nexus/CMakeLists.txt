@@ -317,3 +317,4 @@ ot_nexus_test(trel "trel;nexus")
 # Large network
 ot_nexus_test(full_network_reset "core;large_network;nexus")
 ot_nexus_test(large_network "core;large_network;nexus")
+ot_nexus_test(scale_network "core;large_network;nexus")

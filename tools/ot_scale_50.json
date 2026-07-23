@@ -1,0 +1,597 @@
+{
+  "nodes_requested": 50,
+  "nodes_running": 50,
+  "time_mode": "virtual",
+  "join_seconds": 1.0,
+  "sim_seconds": 19.2,
+  "states": {
+    "1": "leader",
+    "2": "router",
+    "3": "router",
+    "4": "child",
+    "5": "child",
+    "6": "child",
+    "7": "child",
+    "8": "child",
+    "9": "child",
+    "10": "router",
+    "11": "child",
+    "12": "router",
+    "13": "router",
+    "14": "router",
+    "15": "child",
+    "16": "child",
+    "17": "router",
+    "18": "child",
+    "19": "router",
+    "20": "child",
+    "21": "router",
+    "22": "child",
+    "23": "router",
+    "24": "child",
+    "25": "child",
+    "26": "child",
+    "27": "child",
+    "28": "child",
+    "29": "child",
+    "30": "child",
+    "31": "child",
+    "32": "child",
+    "33": "child",
+    "34": "child",
+    "35": "child",
+    "36": "child",
+    "37": "child",
+    "38": "child",
+    "39": "child",
+    "40": "child",
+    "41": "child",
+    "42": "child",
+    "43": "child",
+    "44": "child",
+    "45": "child",
+    "46": "child",
+    "47": "child",
+    "48": "child",
+    "49": "child",
+    "50": "child"
+  },
+  "state_counts": {
+    "leader": 1,
+    "router": 10,
+    "child": 39
+  },
+  "host": {
+    "timestamp": 1784275511.2224352,
+    "count": 50,
+    "total_rss_kb": 464320,
+    "total_rss_mb": 453.44,
+    "total_vsz_kb": 633600,
+    "total_vsz_mb": 618.75,
+    "total_cpu_pct": 0.0,
+    "total_threads": 50,
+    "rss_kb_avg": 9286.4,
+    "rss_kb_min": 9188,
+    "rss_kb_max": 9352,
+    "rss_kb_p50": 9290,
+    "self_maxrss_kb": 19360
+  },
+  "host_per_node": [
+    {
+      "node_id": 1,
+      "pid": 390086,
+      "rss_kb": 9288,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 2,
+      "pid": 390088,
+      "rss_kb": 9340,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 3,
+      "pid": 390090,
+      "rss_kb": 9248,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 4,
+      "pid": 390092,
+      "rss_kb": 9300,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 5,
+      "pid": 390094,
+      "rss_kb": 9248,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 6,
+      "pid": 390096,
+      "rss_kb": 9288,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 7,
+      "pid": 390098,
+      "rss_kb": 9320,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 8,
+      "pid": 390100,
+      "rss_kb": 9252,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 9,
+      "pid": 390102,
+      "rss_kb": 9332,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 10,
+      "pid": 390104,
+      "rss_kb": 9292,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 11,
+      "pid": 390106,
+      "rss_kb": 9332,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 12,
+      "pid": 390108,
+      "rss_kb": 9240,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 13,
+      "pid": 390110,
+      "rss_kb": 9304,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 14,
+      "pid": 390112,
+      "rss_kb": 9256,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 15,
+      "pid": 390114,
+      "rss_kb": 9340,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 16,
+      "pid": 390116,
+      "rss_kb": 9280,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 17,
+      "pid": 390118,
+      "rss_kb": 9188,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 18,
+      "pid": 390120,
+      "rss_kb": 9320,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 19,
+      "pid": 390122,
+      "rss_kb": 9344,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 20,
+      "pid": 390124,
+      "rss_kb": 9272,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 21,
+      "pid": 390126,
+      "rss_kb": 9288,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 22,
+      "pid": 390128,
+      "rss_kb": 9328,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 23,
+      "pid": 390130,
+      "rss_kb": 9288,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 24,
+      "pid": 390132,
+      "rss_kb": 9204,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 25,
+      "pid": 390134,
+      "rss_kb": 9292,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 26,
+      "pid": 390136,
+      "rss_kb": 9296,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 27,
+      "pid": 390138,
+      "rss_kb": 9284,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 28,
+      "pid": 390140,
+      "rss_kb": 9252,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 29,
+      "pid": 390142,
+      "rss_kb": 9304,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 30,
+      "pid": 390144,
+      "rss_kb": 9260,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 31,
+      "pid": 390146,
+      "rss_kb": 9288,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 32,
+      "pid": 390148,
+      "rss_kb": 9300,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 33,
+      "pid": 390150,
+      "rss_kb": 9268,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 34,
+      "pid": 390152,
+      "rss_kb": 9272,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 35,
+      "pid": 390154,
+      "rss_kb": 9292,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 36,
+      "pid": 390156,
+      "rss_kb": 9352,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 37,
+      "pid": 390158,
+      "rss_kb": 9192,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 38,
+      "pid": 390160,
+      "rss_kb": 9300,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 39,
+      "pid": 390162,
+      "rss_kb": 9248,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 40,
+      "pid": 390164,
+      "rss_kb": 9304,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 41,
+      "pid": 390166,
+      "rss_kb": 9328,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 42,
+      "pid": 390168,
+      "rss_kb": 9344,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 43,
+      "pid": 390170,
+      "rss_kb": 9320,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 44,
+      "pid": 390172,
+      "rss_kb": 9276,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 45,
+      "pid": 390174,
+      "rss_kb": 9300,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 46,
+      "pid": 390176,
+      "rss_kb": 9332,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 47,
+      "pid": 390178,
+      "rss_kb": 9252,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 48,
+      "pid": 390180,
+      "rss_kb": 9300,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 49,
+      "pid": 390182,
+      "rss_kb": 9260,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 50,
+      "pid": 390184,
+      "rss_kb": 9212,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    }
+  ],
+  "host_peak": {
+    "timestamp": 1784275509.0847442,
+    "count": 50,
+    "total_rss_kb": 464320,
+    "total_rss_mb": 453.44,
+    "total_vsz_kb": 633600,
+    "total_vsz_mb": 618.75,
+    "total_cpu_pct": 9.61,
+    "total_threads": 50,
+    "rss_kb_avg": 9286.4,
+    "rss_kb_min": 9188,
+    "rss_kb_max": 9352,
+    "rss_kb_p50": 9290,
+    "self_maxrss_kb": 19360
+  },
+  "host_samples": [
+    {
+      "timestamp": 1784275506.9008887,
+      "count": 50,
+      "total_rss_kb": 462552,
+      "total_rss_mb": 451.71,
+      "total_vsz_kb": 633600,
+      "total_vsz_mb": 618.75,
+      "total_cpu_pct": 0.0,
+      "total_threads": 50,
+      "rss_kb_avg": 9251.0,
+      "rss_kb_min": 9152,
+      "rss_kb_max": 9316,
+      "rss_kb_p50": 9256,
+      "self_maxrss_kb": 19360
+    },
+    {
+      "timestamp": 1784275509.0847442,
+      "count": 50,
+      "total_rss_kb": 464320,
+      "total_rss_mb": 453.44,
+      "total_vsz_kb": 633600,
+      "total_vsz_mb": 618.75,
+      "total_cpu_pct": 9.61,
+      "total_threads": 50,
+      "rss_kb_avg": 9286.4,
+      "rss_kb_min": 9188,
+      "rss_kb_max": 9352,
+      "rss_kb_p50": 9290,
+      "self_maxrss_kb": 19360
+    },
+    {
+      "timestamp": 1784275511.032703,
+      "count": 50,
+      "total_rss_kb": 464320,
+      "total_rss_mb": 453.44,
+      "total_vsz_kb": 633600,
+      "total_vsz_mb": 618.75,
+      "total_cpu_pct": 32.34,
+      "total_threads": 50,
+      "rss_kb_avg": 9286.4,
+      "rss_kb_min": 9188,
+      "rss_kb_max": 9352,
+      "rss_kb_p50": 9290,
+      "self_maxrss_kb": 19360
+    },
+    {
+      "timestamp": 1784275511.1911192,
+      "count": 50,
+      "total_rss_kb": 464320,
+      "total_rss_mb": 453.44,
+      "total_vsz_kb": 633600,
+      "total_vsz_mb": 618.75,
+      "total_cpu_pct": 25.25,
+      "total_threads": 50,
+      "rss_kb_avg": 9286.4,
+      "rss_kb_min": 9188,
+      "rss_kb_max": 9352,
+      "rss_kb_p50": 9290,
+      "self_maxrss_kb": 19360
+    },
+    {
+      "timestamp": 1784275511.2059362,
+      "count": 50,
+      "total_rss_kb": 464320,
+      "total_rss_mb": 453.44,
+      "total_vsz_kb": 633600,
+      "total_vsz_mb": 618.75,
+      "total_cpu_pct": 0.0,
+      "total_threads": 50,
+      "rss_kb_avg": 9286.4,
+      "rss_kb_min": 9188,
+      "rss_kb_max": 9352,
+      "rss_kb_p50": 9290,
+      "self_maxrss_kb": 19360
+    },
+    {
+      "timestamp": 1784275511.2179303,
+      "count": 50,
+      "total_rss_kb": 464320,
+      "total_rss_mb": 453.44,
+      "total_vsz_kb": 633600,
+      "total_vsz_mb": 618.75,
+      "total_cpu_pct": 0.0,
+      "total_threads": 50,
+      "rss_kb_avg": 9286.4,
+      "rss_kb_min": 9188,
+      "rss_kb_max": 9352,
+      "rss_kb_p50": 9290,
+      "self_maxrss_kb": 19360
+    }
+  ],
+  "dataset": {
+    "network_name": "OT-Scale",
+    "network_key": "00112233445566778899aabbccddeeff",
+    "panid": "0xface",
+    "channel": 11,
+    "active_tlvs": "0e0800000000000100004a0300001535060004001fffe00208af7e4805de3b11850708fd60fb3b39660ca604109bf2dc2e8ef7eaf09ee41e4aa7eb91a80c0402a0f7f803084f542d5363616c65051000112233445566778899aabbccddeeff0102face000300000b"
+  },
+  "port_offset": 5,
+  "ot_cli": "/home/chendejin/ESP_IDF/second-esp-idf/components/openthread/openthread/build/simulation/examples/apps/cli/ot-cli-ftd"
+}

@@ -1,0 +1,80 @@
+{
+  "framework": "nexus",
+  "nodes_requested": 50,
+  "router_eligible": 32,
+  "result": {
+    "nodes": 50,
+    "attached": 50,
+    "leader": 1,
+    "router": 13,
+    "child": 36,
+    "detached": 0,
+    "sim_ms": 58500,
+    "wall_ms": 122
+  },
+  "host": {
+    "peak_rss_mb": 14.69,
+    "peak_vsz_mb": 12.74,
+    "peak_cpu_pct": 99.29,
+    "final_rss_mb": 11.13,
+    "final_cpu_pct": 99.29,
+    "threads": 1,
+    "process_count": 1,
+    "children_maxrss_mb": 14.69
+  },
+  "host_peak": {
+    "rss_kb": 15040,
+    "rss_mb": 14.69,
+    "vsz_kb": 13048,
+    "vsz_mb": 12.74,
+    "threads": 1,
+    "cpu_pct": 99.29,
+    "timestamp": 1784273813.5161726
+  },
+  "host_final": {
+    "rss_kb": 11400,
+    "rss_mb": 11.13,
+    "vsz_kb": 13048,
+    "vsz_mb": 12.74,
+    "threads": 1,
+    "cpu_pct": 99.29,
+    "timestamp": 1784273813.5161726
+  },
+  "host_samples": [
+    {
+      "rss_kb": 11348,
+      "rss_mb": 11.08,
+      "vsz_kb": 13048,
+      "vsz_mb": 12.74,
+      "threads": 1,
+      "cpu_pct": 0.0,
+      "timestamp": 1784273813.4152935
+    },
+    {
+      "rss_kb": 11380,
+      "rss_mb": 11.11,
+      "vsz_kb": 13048,
+      "vsz_mb": 12.74,
+      "threads": 1,
+      "cpu_pct": 99.15,
+      "timestamp": 1784273813.4658284
+    },
+    {
+      "rss_kb": 11400,
+      "rss_mb": 11.13,
+      "vsz_kb": 13048,
+      "vsz_mb": 12.74,
+      "threads": 1,
+      "cpu_pct": 99.29,
+      "timestamp": 1784273813.5161726
+    }
+  ],
+  "nexus_bin": "/home/chendejin/ESP_IDF/second-esp-idf/components/openthread/openthread/nexus_test/tests/nexus/nexus_scale_network",
+  "sim_json": "tools/ot_scale_800.json",
+  "comparison": {
+    "sim_total_rss_mb": 7356.57,
+    "sim_total_cpu_pct": 1803.28,
+    "sim_processes": 800,
+    "rss_ratio_sim_over_nexus": 500.788
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "nodes_requested": 20,
+  "nodes_running": 20,
+  "time_mode": "virtual",
+  "join_seconds": 6.91,
+  "sim_seconds": 15.2,
+  "states": {
+    "1": "leader",
+    "2": "child",
+    "3": "child",
+    "4": "child",
+    "5": "router",
+    "6": "child",
+    "7": "child",
+    "8": "child",
+    "9": "router",
+    "10": "child",
+    "11": "child",
+    "12": "router",
+    "13": "child",
+    "14": "router",
+    "15": "child",
+    "16": "router",
+    "17": "child",
+    "18": "router",
+    "19": "child",
+    "20": "router"
+  },
+  "state_counts": {
+    "leader": 1,
+    "child": 12,
+    "router": 7
+  },
+  "host": {
+    "timestamp": 1784274223.3224173,
+    "count": 20,
+    "total_rss_kb": 186112,
+    "total_rss_mb": 181.75,
+    "total_vsz_kb": 253440,
+    "total_vsz_mb": 247.5,
+    "total_cpu_pct": 0.0,
+    "total_threads": 20,
+    "rss_kb_avg": 9305.6,
+    "rss_kb_min": 9200,
+    "rss_kb_max": 9348,
+    "rss_kb_p50": 9320,
+    "self_maxrss_kb": 19040
+  },
+  "host_per_node": [
+    {
+      "node_id": 1,
+      "pid": 356939,
+      "rss_kb": 9348,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 2,
+      "pid": 356945,
+      "rss_kb": 9344,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 3,
+      "pid": 357018,
+      "rss_kb": 9332,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 4,
+      "pid": 357027,
+      "rss_kb": 9328,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 5,
+      "pid": 357038,
+      "rss_kb": 9336,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 6,
+      "pid": 357041,
+      "rss_kb": 9200,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 7,
+      "pid": 357043,
+      "rss_kb": 9256,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 8,
+      "pid": 357058,
+      "rss_kb": 9292,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 9,
+      "pid": 357065,
+      "rss_kb": 9336,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 10,
+      "pid": 357070,
+      "rss_kb": 9328,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 11,
+      "pid": 357076,
+      "rss_kb": 9324,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 12,
+      "pid": 357078,
+      "rss_kb": 9340,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 13,
+      "pid": 357080,
+      "rss_kb": 9340,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 14,
+      "pid": 357083,
+      "rss_kb": 9288,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 15,
+      "pid": 357085,
+      "rss_kb": 9244,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 16,
+      "pid": 357092,
+      "rss_kb": 9312,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 17,
+      "pid": 357095,
+      "rss_kb": 9316,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 18,
+      "pid": 357100,
+      "rss_kb": 9304,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 19,
+      "pid": 357102,
+      "rss_kb": 9304,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    },
+    {
+      "node_id": 20,
+      "pid": 357106,
+      "rss_kb": 9240,
+      "vsz_kb": 12672,
+      "cpu_pct": 0.0,
+      "threads": 1
+    }
+  ],
+  "host_peak": {
+    "timestamp": 1784274223.2176516,
+    "count": 20,
+    "total_rss_kb": 186112,
+    "total_rss_mb": 181.75,
+    "total_vsz_kb": 253440,
+    "total_vsz_mb": 247.5,
+    "total_cpu_pct": 2.06,
+    "total_threads": 20,
+    "rss_kb_avg": 9305.6,
+    "rss_kb_min": 9200,
+    "rss_kb_max": 9348,
+    "rss_kb_p50": 9320,
+    "self_maxrss_kb": 19040
+  },
+  "host_samples": [
+    {
+      "timestamp": 1784274222.731284,
+      "count": 20,
+      "total_rss_kb": 185424,
+      "total_rss_mb": 181.08,
+      "total_vsz_kb": 253440,
+      "total_vsz_mb": 247.5,
+      "total_cpu_pct": 0.0,
+      "total_threads": 20,
+      "rss_kb_avg": 9271.2,
+      "rss_kb_min": 9164,
+      "rss_kb_max": 9344,
+      "rss_kb_p50": 9284,
+      "self_maxrss_kb": 19040
+    },
+    {
+      "timestamp": 1784274223.2176516,
+      "count": 20,
+      "total_rss_kb": 186112,
+      "total_rss_mb": 181.75,
+      "total_vsz_kb": 253440,
+      "total_vsz_mb": 247.5,
+      "total_cpu_pct": 2.06,
+      "total_threads": 20,
+      "rss_kb_avg": 9305.6,
+      "rss_kb_min": 9200,
+      "rss_kb_max": 9348,
+      "rss_kb_p50": 9320,
+      "self_maxrss_kb": 19040
+    },
+    {
+      "timestamp": 1784274223.309021,
+      "count": 20,
+      "total_rss_kb": 186112,
+      "total_rss_mb": 181.75,
+      "total_vsz_kb": 253440,
+      "total_vsz_mb": 247.5,
+      "total_cpu_pct": 0.0,
+      "total_threads": 20,
+      "rss_kb_avg": 9305.6,
+      "rss_kb_min": 9200,
+      "rss_kb_max": 9348,
+      "rss_kb_p50": 9320,
+      "self_maxrss_kb": 19040
+    },
+    {
+      "timestamp": 1784274223.3180223,
+      "count": 20,
+      "total_rss_kb": 186112,
+      "total_rss_mb": 181.75,
+      "total_vsz_kb": 253440,
+      "total_vsz_mb": 247.5,
+      "total_cpu_pct": 111.41,
+      "total_threads": 20,
+      "rss_kb_avg": 9305.6,
+      "rss_kb_min": 9200,
+      "rss_kb_max": 9348,
+      "rss_kb_p50": 9320,
+      "self_maxrss_kb": 19040
+    }
+  ],
+  "dataset": {
+    "network_name": "OT-Scale",
+    "network_key": "00112233445566778899aabbccddeeff",
+    "panid": "0xface",
+    "channel": 11,
+    "active_tlvs": "0e0800000000000100004a0300000c35060004001fffe002086067151545ce5fe80708fd015dc48f9fa5730410b5163a4c97fad752fe4b416679278bb70c0402a0f7f803084f542d5363616c65051000112233445566778899aabbccddeeff0102face000300000b"
+  },
+  "port_offset": 7,
+  "ot_cli": "/home/chendejin/ESP_IDF/second-esp-idf/components/openthread/openthread/build/simulation/examples/apps/cli/ot-cli-ftd"
+}

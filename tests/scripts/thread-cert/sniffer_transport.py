@@ -92,7 +92,8 @@ class SnifferSocketTransport(SnifferTransport):
 
     BASE_PORT = 9000
 
-    MAX_NETWORK_SIZE = 33
+    # Must match OT_SIMULATION_MAX_NETWORK_SIZE used to build ot-cli-*.
+    MAX_NETWORK_SIZE = int(os.getenv('OT_SIMULATION_MAX_NETWORK_SIZE', '33'))
 
     PORT_OFFSET = int(os.getenv('PORT_OFFSET', "0"))
 

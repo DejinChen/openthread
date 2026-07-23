@@ -437,7 +437,7 @@
  *
  *  The maximum size of SPINEL frame.
  */
-#define SPINEL_FRAME_MAX_SIZE 1300
+#define SPINEL_FRAME_MAX_SIZE 2200
 
 /**
  * @def SPINEL_FRAME_MAX_COMMAND_HEADER_SIZE

@@ -28,6 +28,8 @@
 
 #include "spinel_driver.hpp"
 
+#include "stdio.h"
+
 #include <assert.h>
 
 #include <openthread/platform/time.h>
@@ -240,15 +242,26 @@ otError SpinelDriver::SendCommand(uint32_t          aCommand,
     packed = spinel_datatype_pack(buffer, sizeof(buffer), "Cii", SPINEL_HEADER_FLAG | SPINEL_HEADER_IID(mIid) | aTid,
                                   aCommand, aKey);
 
-    VerifyOrExit(packed > 0 && static_cast<size_t>(packed) <= sizeof(buffer), error = OT_ERROR_NO_BUFS);
+    if (packed <= 0 || static_cast<size_t>(packed) > sizeof(buffer)) {
+        printf("no bufs\n");
+        error = OT_ERROR_NO_BUFS;
+        ExitNow();
+    }
+    // VerifyOrExit(packed > 0 && static_cast<size_t>(packed) <= sizeof(buffer), printf("no bufs\n"); error = OT_ERROR_NO_BUFS);
 
+    printf("packed: %d\n", packed);
     offset = static_cast<uint16_t>(packed);
 
     // Pack the data (if any)
     if (aFormat)
     {
         packed = spinel_datatype_vpack(buffer + offset, sizeof(buffer) - offset, aFormat, aArgs);
-        VerifyOrExit(packed > 0 && static_cast<size_t>(packed + offset) <= sizeof(buffer), error = OT_ERROR_NO_BUFS);
+        // VerifyOrExit(packed > 0 && static_cast<size_t>(packed + offset) <= sizeof(buffer), error = OT_ERROR_NO_BUFS);
+        if (packed <= 0 || static_cast<size_t>(packed + offset) > sizeof(buffer)) {
+            printf("no bufs\n");
+            error = OT_ERROR_NO_BUFS;
+            ExitNow();
+        }
 
         offset += static_cast<uint16_t>(packed);
     }
